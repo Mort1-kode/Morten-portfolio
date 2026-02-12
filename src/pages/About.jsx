@@ -35,7 +35,7 @@ function About() {
                 </p>
                 <ul>
                     <li><strong>Football:</strong> I serve as the coach for my son's football team, a role that helps me on my leadership and communication skills</li>
-                    <li><strong>Viking FK:</strong> I am a loyal supporter and a season ticket holder at SR-Bank Arena. One of my favorite traditions is bringing my son to the matches, sharing the excitement and supporting our local team together</li>
+                    <li><strong>Viking FK:</strong> I am a loyal supporter and a season ticket holder at Lyse Arena. One of my favorite traditions is bringing my son to the matches, sharing the excitement and supporting our local team together</li>
                     <li><strong>Gaming:</strong> In the evenings, you`ll often find me in <strong>CS2</strong>, where I enjoy the tactical challenges and fast-paced teamwork</li>
                     <li><strong>The Outdoors:</strong> I love to recharge by going fishing, hiking in the mountains, or traveling to new places</li>
                 </ul>
