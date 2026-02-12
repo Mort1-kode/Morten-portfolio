@@ -58,3 +58,12 @@
 .contact-link:hover {
     text-decoration: underline;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-container {
+    width: 95%;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}

@@ -109,3 +109,15 @@
     flex: 1;
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr; 
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .gallery-title {
+    font-size: 1.8rem; 
+  }
+}
