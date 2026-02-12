@@ -1,0 +1,23 @@
+.footer {
+    padding: 2rem;
+    background: #0f172a;
+    border-top: 1px solid rgba(101, 226, 217, 0.1);
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    color: #65e2d9; /* Din cyan-farge */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.1rem;
+}

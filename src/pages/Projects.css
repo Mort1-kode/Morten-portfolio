@@ -1,0 +1,111 @@
+@import "../index.css";
+
+.projects-container {
+    padding: 80px 20px;
+    max-width: 1050px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.back-home-wrapper {
+    margin-bottom: 2rem;
+}
+
+.gallery-title {
+    margin-bottom: 4rem;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--white);
+    font-family: var(--font-header);
+    font-weight: 900;
+    text-align: left;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.project-card {
+    background-color: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: none;
+    margin: 0;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.project-image-wrapper {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+    border-top: 2px solid var(--accent-cyan);
+    border-bottom: 2px solid var(--accent-cyan);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: inset 0 0px 15px rgba(101, 226, 217, 0.1);
+}
+
+.project-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.project-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 15px;
+}
+
+.project-info h3 {
+    color: var(--accent-cyan);
+    font-family: var(--font-header);
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.project-info p {
+    color: var(--white);
+    font-family: var(--font-body);
+    opacity: 0.9;
+    flex-grow: 1;
+    line-height: 1.6;
+}
+
+.project-button-group {
+    display: flex;
+    gap: 12px;
+    margin-top: auto;
+}
+
+.project-button-group .btn {
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-weight: 800;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-align: center;
+    flex: 1;
+}
+
