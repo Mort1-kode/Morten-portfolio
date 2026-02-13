@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className='portfolio-wrapper'>
       
-      {/* Hero-seksjonen */}
+      {/* Hero section */}
       <section 
         className='hero-full' 
         style={{ 
@@ -40,7 +40,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Skills/logo */}
+      {/* Skills section */}
       <section className='skills-section'>
       <div className='skills-container'>
         <div></div>
@@ -52,7 +52,7 @@ function Home() {
         </div>
         </section>
 
-      {/* Project-Cards*/}
+      {/* Project cards section */}
       <div className='home-container' id="projects">
         <header style={{ textAlign: 'center', marginBottom: '3rem' }}>
           <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>My Projects</h2>
@@ -61,7 +61,7 @@ function Home() {
 
         <div className='home-project-grid'>
           
-          {/* Første kort */}
+          {/* First project card */}
           <div className='home-project-card'>
             <div className='home-image-wrapper'>
               <img src={fyloImg} alt="fylo project" className='home-preview' />
@@ -73,7 +73,7 @@ function Home() {
             </div>
           </div>
 
-          {/* Andre kort */}
+          {/* Second project card */}
           <div className='home-project-card'>
             <div className='home-image-wrapper'>
               <img src={newshomepageImg} alt="news project" className='home-preview' />
@@ -85,7 +85,7 @@ function Home() {
             </div>
           </div>
 
-          {/* Tredje kort */}
+          {/* Third project card */}
           <div className='home-project-card'>
             <div className='home-image-wrapper'>
               <img src={travelplannerImg} alt="travel project" className='home-preview' />
