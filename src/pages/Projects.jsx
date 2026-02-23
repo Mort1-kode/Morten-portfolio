@@ -114,7 +114,7 @@ const allProjects = [
         img: timetrackerImg,
         codeUrl: "https://github.com/Mort1-kode/Time_Tracker-Morten",
         demoUrl: "https://time-tracker-mort1.netlify.app/"
-    }
+    },
 
     {
         id: 12,
