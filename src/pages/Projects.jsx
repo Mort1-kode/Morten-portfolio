@@ -12,6 +12,7 @@ import resultImg from '../assets/result-summarycomponent.png';
 import pricingImg from '../assets/pricing-grid-img.png';
 import drumkitImg from '../assets/drumkit-img.png';
 import timetrackerImg from '../assets/time-tracker.png'
+import calculatorImg from '../assets/morten-calculator.png'
 
 
 /* Project cards */
@@ -113,6 +114,15 @@ const allProjects = [
         img: timetrackerImg,
         codeUrl: "https://github.com/Mort1-kode/Time_Tracker-Morten",
         demoUrl: "https://time-tracker-mort1.netlify.app/"
+    }
+
+    {
+        id: 12,
+        title: "Calculator",
+        desc: "Calculator built with React and Vite, featuring a responsive grid layout, advanced error handling for edge cases, and a custom-styled interface optimized for all devices",
+        img: calculatorImg,
+        codeUrl: "https://github.com/Mort1-kode/Calculator",
+        demoUrl: "https://mort1-calculator.netlify.app/"
     }
 
     
