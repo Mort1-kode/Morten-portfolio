@@ -13,6 +13,7 @@ import pricingImg from '../assets/pricing-grid-img.png';
 import drumkitImg from '../assets/drumkit-img.png';
 import timetrackerImg from '../assets/time-tracker.png'
 import calculatorImg from '../assets/morten-calculator.png'
+import weatherappImg from '../assets/weather-app.png'
 
 
 /* Project cards */
@@ -123,7 +124,18 @@ const allProjects = [
         img: calculatorImg,
         codeUrl: "https://github.com/Mort1-kode/Calculator",
         demoUrl: "https://mort1-calculator.netlify.app/"
+    },
+
+    {
+        id: 13,
+        title: "Weather App",
+        desc: "A real-time weather application built with React and API integration. Focused on semantic HTML, clean code structure, and a fully responsive design",
+        img: weatherappImg,
+        codeUrl: "https://github.com/Mort1-kode/Weather-App",
+        demoUrl: "https://morten-weather.netlify.app/"
     }
+
+
 
     
 ];
